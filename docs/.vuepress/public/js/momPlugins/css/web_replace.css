@@ -1,0 +1,259 @@
+.navbar-dark {
+    border-color: transparent;
+    background: #52929c;
+    /*background: rgb(82 146 147 / 50%);*/
+    /*filter: drop-shadow(5px 5px 3px rgba(0, 0, 0, 0.5));*/
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: 600;
+}
+
+[class*="sidebar-dark-"] {
+    background: #52929c;
+    /*background: rgb(82 146 147 / 50%);*/
+    /*filter: drop-shadow(0px 10px 3px rgba(0, 0, 0, 0.5));*/
+}
+
+[class*=sidebar-dark-] .sidebar a {
+    color: #fff;
+}
+
+
+[class*=sidebar-dark] .form-control-sidebar {
+    background-color: #fff;
+    color: #333;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.main-footer {
+    padding: 0.4rem;
+    line-height: 1.5;
+}
+
+.form-group label {
+    font-size: 14px;
+    font-weight: 500 !important;
+    margin-bottom: 8px;
+}
+
+.form-control {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.jsearch-fixed label {
+    margin: 4px 10px 0 0;
+    font-size: 15px;
+    font-weight: 600;
+}
+.jsearch-fixed .form-control {
+    font-weight: 400;
+}
+
+.form-group {
+    padding: 0 2.5rem 0 2.5rem;
+}
+
+/* 表格相关样式 */
+.table thead th {
+    border-bottom: none;
+    background: #efefef96;
+    padding: 0.2rem 0.55rem;
+    font-size: 15px;
+}
+
+.table-bordered td, .table-bordered th {
+    border: 0;
+}
+
+.even {
+    background-color: #f8f9fa;
+}
+
+.table td {
+    padding: 0.3rem 0.3rem;
+    font-size: 14px;
+}
+.table td label.unchecked-column, label.checked-column{
+    position: absolute;
+    top: 3px;
+}
+
+/* tab切换栏 */
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* field和下拉列表 */
+.form-control:disabled, .form-control[readonly] {
+    color: #747474;
+    background-color: #fff;
+    opacity: 1;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.input-group .btn-default:disabled, .input-group .btn-default[readonly] {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.group-content .datetimepicker-input,
+.input-group-text,
+.form-control,
+form .btn-default,
+.jsearch .btn-default,
+.btn-row .input-group .btn-default {
+    border-bottom: 1px solid #5aaebb;
+}
+
+/**/
+/*cqs-tag-success：表示成功的状态。     绿色*/
+/*cqs-tag-secondary：表示次要的状态。   浅绿色  */
+/*cqs-tag-info：表示信息的状态。        灰色*/
+/*cqs-tag-danger：表示危险的状态。      粉红色 */
+/*cqs-tag-warning：表示警告的状态。     橘黄色 */
+/*cqs-tag-primary：表示主要的状态。     淡蓝色 */
+/*cqs-tag-default：表示静音的状态。     白色 */
+
+/*以下表示带icon的和不需要背景色样式*/
+/*cqs-tag-pass：表示通过的状态。     绿色 */
+/*cqs-tag-fail：表示不通过的状态。     红色 */
+/*cqs-tag-gray：表示灰色信息的状态。     红色 */
+
+.cqs-tag {
+    display: inline-block;
+    height: 16px;
+    padding: 0 5px;
+    line-height: 16px;
+    font-size: 12px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    white-space: nowrap;
+    color: #000;
+    min-width: 46px;
+    text-align: center;
+}
+
+.cqs-tag + .cqs-tag {
+    margin-left: 5px;
+}
+
+.cqs-tag.cqs-tag-success {
+    background-color: #70B505;
+}
+
+
+.cqs-tag.cqs-tag-paused {
+    background-color: #facd91;
+}
+
+.cqs-tag.cqs-tag-finished {
+    background-color: #c280ff;
+}
+
+.cqs-tag.cqs-tag-suspended {
+    background-color: #f59a24;
+}
+
+
+.cqs-tag.cqs-tag-secondary {
+    background-color: #8ff881;
+}
+
+.cqs-tag.cqs-tag-info {
+    background-color: #D7D7D7;
+}
+
+.cqs-tag.cqs-tag-danger {
+    background-color: #E8818E;
+}
+
+.cqs-tag.cqs-tag-warning {
+    background-color: #FBCD90;
+}
+
+.cqs-tag.cqs-tag-primary {
+    background-color: #8FF881;
+}
+
+.cqs-tag.cqs-tag-default {
+    background-color: #fff;
+}
+
+.cqs-tag.cqs-tag-pass {
+    background-color: #fff;
+    font-weight: 600;
+    color: green;
+}
+
+.cqs-tag.cqs-tag-fail {
+    background-color: #fff;
+    font-weight: 600;
+    color: red;
+}
+
+.cqs-tag.cqs-tag-gray {
+    background-color: #fff;
+    font-weight: 600;
+    color: #797979;
+}
+
+.cqs-tag .fa {
+    margin-right: 3px;
+}
+
+.brand-link {
+    padding: 15.5px 0.5rem
+}
+
+@media (min-width: 992px) {
+    .sidebar-mini.sidebar-collapse .main-sidebar, .sidebar-mini.sidebar-collapse .main-sidebar::before {
+        margin-left: 0;
+        width: 4rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .sidebar-mini.sidebar-collapse .content-wrapper, .sidebar-mini.sidebar-collapse .main-footer, .sidebar-mini.sidebar-collapse .main-header {
+        margin-left: 4rem !important;
+    }
+}
+
+.sidebar-collapse aside .nav-link {
+    padding: 0.1rem 10px;
+}
+
+aside .nav-link {
+    padding: 0.1rem 1rem;
+}
+
+.jsearch-container .jsearch-selection {
+    background-color: white;
+    border: 0;
+    border-bottom: 1px solid #5aaebb;
+}
+
+.btn-search {
+    border-bottom: 1px solid #5aaebb;
+    border-radius: 0;
+}
+
+.material_border td{
+    border-bottom: 1px solid #333 !important;
+    border-top: 1px solid #333 !important;
+}
+.material_border td:first-child {
+    border-left: 1px solid #333 !important;
+}
+.material_border td:last-child {
+    border-right: 1px solid #333 !important;
+}
+
+form .pager-prev, form .pager-next{
+    border: 0;
+}

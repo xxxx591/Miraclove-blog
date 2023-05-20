@@ -1,0 +1,171 @@
+
+.card-body {
+    background: #fff !important;
+    padding: 0.5rem 1rem;
+}
+
+.group-content .datetimepicker-input,
+.input-group-text,
+.form-control,
+form .btn-default,
+.btn-row .input-group .btn-default {
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #ced4da;
+    background: white;
+}
+
+.left-aside .form-control {
+    border: 1px solid #ced4da;
+}
+
+.btn-default:disabled {
+    /*border: 0;*/
+    background: none;
+}
+
+.form-panel .group-content {
+    border: 0 !important;
+}
+
+.input-group-text {
+    background: none;
+}
+
+.form-panel .field-group {
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+.form-panel .group-header {
+    background: #52929c;
+    padding: 0.3rem 0.5rem;
+    margin: 0px 2.0rem;
+    color: white;
+}
+
+.nav-tabs {
+    padding-left: 0.5rem;
+    margin: 0px 2rem;
+    width: auto;
+}
+
+.select2-container--default .select2-selection--single {
+    border: 0;
+    border-bottom: 1px solid #ced4da;
+    border-radius: 0;
+}
+
+.form-panel .content-header .btn-row {
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.form-panel .content-header .btn-row .toolbar {
+    height: auto;
+}
+
+.form-panel .content-header .btn-row .toolbar .btn {
+    /*padding: 0.1rem 0.65rem;*/
+    font-size: 0.85rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    /*height: calc(1.75rem + 2px);*/
+    line-height: 1;
+    justify-content: center;
+}
+
+.form-control {
+    height: calc(1.75rem + 2px);
+    padding: 0 0 0 5px;
+    font-size: 0.85rem;
+    text-align: left !important;
+    color: black;
+    line-height: 30px;
+}
+
+.form-control.m2m-tag {
+    height: auto;
+}
+
+.form-group {
+    position: relative;
+    /*margin: 0.5rem 0;*/
+    padding: 0 1.5rem;
+}
+
+.form-group label {
+    margin-bottom: 0;
+    color: #7f7f7f;
+}
+
+.jsearch-fixed label {
+    color: #7f7f7f;
+}
+
+.input-group {
+    /*align-items: end;*/
+}
+
+/* 待定的CSS样式 */
+.nav-link {
+    padding: 0.2rem 1.2rem;
+    font-size: 0.85rem;
+    height: 33px;
+}
+
+.form-panel .field-group {
+    margin-bottom: 0.5rem;
+}
+
+.toolbar-right {
+    margin-top: 0;
+}
+
+/*.card-body .btn, .btn-row .btn{*/
+/*    padding: 0.1rem 0.65rem;*/
+/*    font-size: 0.85rem;*/
+/*    letter-spacing: 0.1rem;*/
+/*    text-align: center;*/
+/*    height: calc(1.75rem + 2px);*/
+/*    line-height: 1;*/
+/*    justify-content: center;*/
+/*}*/
+.btn {
+    /*padding: 0.1rem 0.65rem;*/
+    font-size: 0.85rem;
+    /*letter-spacing: 0.1rem;*/
+    text-align: center;
+    /*height: calc(1.75rem + 2px);*/
+    line-height: 1;
+    justify-content: center;
+}
+
+.search .btn {
+    height: auto;
+}
+
+.btn-row {
+    margin: 0px 9px;
+}
+
+.container-fluid {
+    margin-bottom: 5px;
+}
+
+.content-header {
+    padding: 7px 0.5rem;
+}
+
+.card-body .toolbar {
+    height: auto;
+}
+
+.card-body .mt-3, .my-3 {
+    margin-top: 0.5rem !important;
+}
+
+.jsearch-container .jsearch-selection {
+    min-height: 38px;
+}

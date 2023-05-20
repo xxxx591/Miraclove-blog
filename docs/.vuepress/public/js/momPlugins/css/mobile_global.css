@@ -1,0 +1,359 @@
+body {
+  font-size: 12px;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform-origin: left top;
+  overflow: hidden;
+}
+
+/* scan扫描框样式表 */
+.scan-code {
+  background-image: linear-gradient(
+          #ee0a24 0%,
+          #ee0a24 50%,
+          #ffffff 50%,
+          #ffffff 100%
+  );
+  padding: 0px 1rem;
+  position: sticky;
+  top: 58px;
+  z-index: 100;
+}
+
+.scan-code .scan-input.van-cell.van-field {
+  border: 0;
+  width: 100%;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #f1f1f1;
+  box-shadow: 1px 1px 9px #b9b6b629;
+  padding: 10px;
+}
+
+.scan-code .scan-input.van-cell.van-field .van-icon {
+  font-size: 1.6rem;
+}
+
+.navBar-title {
+  color: #fff;
+  font-weight: 700;
+}
+
+/*  field span样式表 */
+.field-box {
+  display: flex;
+  padding: 0 1.25rem;
+  margin-bottom: 0.83rem;
+  font-size: 1.16rem;
+}
+
+.span-title {
+  width: 6.25rem;
+  display: flex;
+  align-items: center;
+  margin-right: 0.83rem;
+}
+
+.span-label {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex: 1;
+  align-items: center;
+}
+
+.span-label p {
+  font-weight: normal;
+  overflow-wrap: normal;
+  font-size: 1.16rem;
+  color: #303133;
+}
+
+/* tool-radio 相关样式 */
+.tool-radio {
+  padding: 2px 0;
+  width: 100%;
+}
+
+.tool-radio .van-radio--horizontal {
+  flex: 1;
+  justify-content: center;
+}
+
+/* dropdown-menu 相关样式 */
+.dropdown-menu .van-dropdown-menu__bar {
+  background-color: transparent;
+}
+
+.dropdown-menu.flex-end .van-dropdown-menu__item {
+  justify-content: end;
+}
+
+.dropdown-menu.flex-end .van-dropdown-menu__title::after {
+  right: 5px;
+}
+
+/* CardField 相关样式 */
+.van-swipe-cell .cq_field.van-field.van-cell {
+  padding: 4px 0px;
+}
+
+/* field相关样式 */
+.cq_field.van-field.van-cell {
+  padding: 5px 16px;
+}
+.cq_field .van-field__label {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.cq_field .van-field__body {
+  height: 100%;
+}
+
+.label-bold {
+  font-weight: bold !important;
+}
+
+.menu-container {
+  width: 100vw;
+  height: 100vh;
+  padding: 0 15px;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+}
+
+.menu-container .menu-cell {
+  padding: 30px 0;
+  background-color: #f2f2f2;
+}
+
+.menu-container .menu-cell-title {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 48px;
+}
+
+.menu-container .menu-dropdown-item {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.menu-container .menu-cell .van-dropdown-menu__bar {
+  background-color: transparent;
+}
+
+.menu-container .menu-cell .van-dropdown-menu__item {
+  justify-content: end;
+}
+
+.menu-container .menu-cell .van-dropdown-menu__title::after {
+  right: 0;
+  border-color: transparent transparent #000 #000;
+}
+
+.menu-container
+.menu-cell
+.van-dropdown-menu__title--active.van-dropdown-menu__title::after {
+  border-color: transparent transparent #ee0a24 #ee0a24;
+}
+
+.toolbar-style {
+  /* font-size: 1.2933rem; */
+}
+
+.toolbar-style-radio {
+  display: flex;
+  align-items: center;
+}
+
+.toolbar-style-btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.card-field {
+  position: relative;
+}
+
+.card-field-separate {
+  position: absolute;
+  content: " ";
+  pointer-events: none;
+  box-sizing: border-box;
+  right: 16px;
+  bottom: 0;
+  left: 16px;
+  border-bottom: 1px solid #ebedf0;
+  -webkit-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+}
+
+.tabbar-style {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  display: flex;
+}
+
+.tabbar-style-item {
+  flex: 1;
+  text-align: center;
+  height: 46px;
+  line-height: 46px;
+  background-color: #aaa;
+  color: #f1f1f1;
+  font-size: 1.2933rem;
+  font-weight: 800;
+}
+
+.cq_navbar {
+  padding-top: 12px;
+  position: sticky;
+  top: 0;
+}
+
+.cq_navbar.van-nav-bar.van-hairline--bottom::after {
+  border-width: 0;
+}
+
+.vxetable-style {
+  position: relative;
+  z-index: 0;
+}
+
+.cq_tabbar .van-tabbar-item__text {
+  width: 100%;
+}
+
+.cq_tips {
+  padding-bottom: 5px;
+  border-bottom: 1px dashed #999;
+}
+
+.cq-checkbox .van-checkbox__label {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.stock-in-style {
+  height: 50px;
+  width: 100%;
+}
+
+.stock-out .van-dropdown-menu__bar {
+  height: 36px;
+}
+
+.showError.van-dialog {
+  background-color: #ee0a24;
+  font-size: 20px;
+  color: #fff;
+}
+
+.showError.van-dialog .van-dialog__message {
+  font-size: 20px;
+  color: #fff;
+}
+
+.showError.van-dialog .van-button.van-button--default {
+  background-color: #ee0a24;
+  font-size: 20px;
+  color: #fff;
+}
+
+/* 自定义 轻提示 */
+.van-overlay{
+  background-color: rgba(0,0,0,.1);
+}
+
+.custom-toast.van-toast {
+  width: 75%;
+  max-width: 75%;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.custom-toast.van-toast .van-toast__icon {
+  font-size: 45px;
+}
+
+.custom-toast.van-toast .van-toast__text {
+  font-size: 20px;
+  margin-left: 10px;
+  margin-top: 0;
+}
+
+/* grid 组件 */
+.grid {
+  display: grid;
+}
+
+/* cell-group 组件 */
+.cell-group-grid {
+  margin-top: 10px;
+  border: 1px solid #eee;
+  display: grid;
+  padding: 5px 16px;
+}
+
+.form-dialog-box {
+  width: 95%;
+  border: 1px solid #eaeaea;
+  border-radius: 3px;
+}
+.form-dialog-box h3 {
+  padding: 5px 16px;
+  margin: 5px 0;
+}
+
+.form-dialog-content {
+  padding: 15px;
+  position: relative;
+}
+
+.form-dialog-button {
+  position: absolute;
+  top: 25px;
+  right: 15px;
+}
+
+/* 下拉框样式 */
+.cq_select {
+  padding: 5px 0;
+  width: 100%;
+  height: 100%;
+}
+
+.cq_select:disabled {
+  opacity: 1;
+  color: initial;
+  border-color: transparent;
+  background-color: transparent;
+  appearance: none;
+}
+
+/*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+.cq_select::-ms-expand {
+  display: none;
+}
+
+.m0{
+  margin: 0;
+}
+.cq_radio{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
